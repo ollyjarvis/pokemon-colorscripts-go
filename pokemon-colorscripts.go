@@ -194,10 +194,13 @@ func main() {
 	}
 
 	if opts.All {
-		list_pokemon_names()
+		err = list_pokemon_names()
 	} else if opts.Name != "" {
-		show_pokemon_by_name(opts.Name, !opts.Title, opts.Shiny, opts.Large, opts.Form)
+		err = show_pokemon_by_name(opts.Name, !opts.Title, opts.Shiny, opts.Large, opts.Form)
 	} else {
-		show_random_pokemon(opts.Random, !opts.Title, opts.Shiny, opts.Large)
+		err = show_random_pokemon(opts.Random, !opts.Title, opts.Shiny, opts.Large)
+	}
+	if err != nil {
+		fmt.Errorf("%v", err)
 	}
 }
