@@ -1,0 +1,12 @@
+# ignore any bytecode files
+*.pyc
+__pycache__
+
+# ignore mypy files
+.mypy_cache
+
+# ignoring package source info files
+.SRCINFO
+
+# ignore python venv
+.venv
