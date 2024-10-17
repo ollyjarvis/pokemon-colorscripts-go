@@ -11,7 +11,7 @@ makedepends=('go')
 depends=('glibc')
 
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('708f61a49886832b3e7f7ba74dae24b27c17a7150de4e7e67cd0e43ed093a97a')
+sha256sums=('15012306fff0a20c382e56be4edf071739d876b8416e255c8d575f3d6e9f4380')
 
 build() {
   export CGO_CPPFLAGS="${CPPFLAGS}"
