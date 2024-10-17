@@ -4,9 +4,6 @@ A script to print out images of pokemon to the terminal. Inspired by
 [DT's colorscripts compilation](https://gitlab.com/dwt1/shell-color-scripts)
 Rewritten in Golang so it's a bit faster.
 
-## Table of contents
-[[_TOC_]]
-
 ## Description
 Prints out colored unicode sprites of pokemon onto your terminal. Contains
 almost 900 pokemon from gen 1 to gen 8. Has all the pokemons you could ever want, including shinies
