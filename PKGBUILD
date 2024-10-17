@@ -1,6 +1,6 @@
 # Maintainer: Oliver Jarvis <hello@ollyjarvis.uk>
 pkgname=pokemon-colorscripts-go
-pkgver=0.0.1
+pkgver=0.0.2
 pkgrel=1
 pkgdesc='pokemon-colorscripts rewritten in Go'
 arch=('x86_64')
