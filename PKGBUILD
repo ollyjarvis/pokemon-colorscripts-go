@@ -1,6 +1,6 @@
-# Maintainer: Oliver Jarvis <hello@ollyjarvis.uk>
+# Maintainer: Oliver Jarvis <hello at ollyjarvis dot uk>
 pkgname=pokemon-colorscripts-go
-pkgver=0.0.2
+pkgver=0.0.3
 pkgrel=1
 pkgdesc='pokemon-colorscripts rewritten in Go'
 arch=('x86_64')
@@ -11,7 +11,7 @@ makedepends=('go')
 depends=('glibc')
 
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('15012306fff0a20c382e56be4edf071739d876b8416e255c8d575f3d6e9f4380')
+sha256sums=('3b9d154e603183fdf0fee877ef9e81bdbbf7d20843ddda7c7a6915f45ce85218')
 
 build() {
   export CGO_CPPFLAGS="${CPPFLAGS}"
