@@ -15,7 +15,7 @@ import (
 var (
 	PROGRAM, _       = os.Executable()
 	PROGRAM_DIR      = filepath.Dir(PROGRAM)
-	COLORSCRIPTS_DIR = fmt.Sprintf("%s/colorscripts", PROGRAM_DIR)
+	COLORSCRIPTS_DIR = fmt.Sprintf("/usr/share/%s/colorscripts", filepath.Base(PROGRAM))
 	GENERATIONS      = [][]int{{1, 151}, {152, 251}, {252, 386}, {387, 493}, {494, 649}, {650, 721}, {722, 809}, {810, 898}}
 )
 
