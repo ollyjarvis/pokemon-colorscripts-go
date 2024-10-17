@@ -1,13 +1,14 @@
-# Pokemon colorscripts
+# pokemon-colorscripts-go
 
 A script to print out images of pokemon to the terminal. Inspired by
-[DT's colorscripts compilation](https://gitlab.com/dwt1/shell-color-scripts)
+[DT's colorscripts compilation](https://gitlab.com/dwt1/shell-color-scripts).
+
 Rewritten in Golang so it's a bit faster.
 
 ## Description
-Prints out colored unicode sprites of pokemon onto your terminal. Contains
-almost 900 pokemon from gen 1 to gen 8. Has all the pokemons you could ever want, including shinies
-and alternate forms (okay it's still missing some female forms but cut me some slack).
+Prints out colored unicode sprites of pokemon onto your terminal.
+
+Contains almost 900 pokemon from gen 1 to gen 8. Has all the pokemons you could ever want, including shinies and alternate forms (still missing some female forms)
 
 ## Visuals
 ### Demo GIFs
@@ -106,7 +107,6 @@ function fish_greeting
      pokemon-colorscripts
 end
 ```
-A more advaced setup combining multiple colorscripts can be found on pokemon-colorscripts#2
 
 ## Location of the files
 
@@ -114,10 +114,11 @@ not done lols
 
 ## How it works
 The program itself is a go binary that prints out text files corresponding
-to the relevant pokemon or a randomly selected pokemon. The sprites are simple text
-files that use unicode characters and ANSI color codes to display images of pokemon.
-The text sprite files can be found in the *colorscripts* folder. The files were generated
-using sprites taken from [PokéSprite](https://msikma.github.io/pokesprite/) as the
+to the relevant pokemon or a randomly selected pokemon.
+
+The sprites are simple text files that use unicode characters and ANSI color codes to display images of pokemon.
+
+The text sprite files can be found in the *colorscripts* folder. The files were generated using sprites taken from [PokéSprite](https://msikma.github.io/pokesprite/) as the
 base and converted to unicode sprites using custom scripts that can be found in
 [this repo](https://gitlab.com/phoneybadger/pokemon-generator-scripts)
 
@@ -125,7 +126,7 @@ base and converted to unicode sprites using custom scripts that can be found in
 `pokemon-colorscripts-go` is a rewrite of pokemon-colorscripts and is not the
 exclusive nor the first program to print out pokemon sprites to the terminal.
 You can check out these really cool projects as well
-- [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+- [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) (python version)
 - [pokeget](https://github.com/talwat/pokeget)
 - [pokeshell](https://github.com/acxz/pokeshell)
 - [krabby](https://github.com/yannjor/krabby)
