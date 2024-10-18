@@ -30,6 +30,16 @@ which most modern terminals have. More on terminals and color support can be fou
 - Clone the repo
 `makepkg -si`
 
+### From source
+#### Install
+- Clone the repo
+`chmod +x install.sh`
+`./install.sh`
+
+#### Uninstall
+`chmod +x uninstall.sh`
+`./uninstall.sh`
+
 ## Usage
 You can run the program from the command line to randomly display a pokemon
 or by specifying the pokemon name with `-n [POKEMON_NAME]`.
