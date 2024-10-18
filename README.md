@@ -28,7 +28,9 @@ which most modern terminals have. More on terminals and color support can be fou
 
 ### Arch Linux
 - Clone the repo
-```makepkg -si```
+```
+makepkg -si
+```
 
 ### From source
 #### Requirements
@@ -36,12 +38,20 @@ which most modern terminals have. More on terminals and color support can be fou
 
 #### Install
 - Clone the repo
-```chmod +x install.sh```
-```./install.sh```
+```
+chmod +x install.sh
+```
+```
+./install.sh
+```
 
 #### Uninstall
-```chmod +x uninstall.sh```
-```./uninstall.sh```
+```
+chmod +x uninstall.sh
+```
+```
+./uninstall.sh
+```
 
 ## Usage
 You can run the program from the command line to randomly display a pokemon
