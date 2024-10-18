@@ -1,7 +1,7 @@
 pkgbase = pokemon-colorscripts-go
 	pkgdesc = pokemon-colorscripts rewritten in Go
 	pkgver = 0.0.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ollyjarvis/pokemon-colorscripts-go
 	arch = x86_64
 	license = MIT
