@@ -1,7 +1,7 @@
 # Maintainer: Oliver Jarvis <hello at ollyjarvis dot uk>
 pkgname=pokemon-colorscripts-go
 pkgver=0.0.3
-pkgrel=1
+pkgrel=2
 pkgdesc='pokemon-colorscripts rewritten in Go'
 arch=('x86_64')
 url="https://github.com/ollyjarvis/$pkgname"
@@ -20,7 +20,7 @@ build() {
   export CGO_LDFLAGS="${LDFLAGS}"
   export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
   cd "$pkgname-$pkgver"
-  go build -o $pkgname .
+  go build -o $pkgname -ldflags "-X main.PROGRAM_DIR=/usr/share/$pkgname" . 
 }
 
 package() {

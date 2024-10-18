@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"math/rand/v2"
 	"os"
-	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -13,9 +12,8 @@ import (
 )
 
 var (
-	PROGRAM, _       = os.Executable()
-	PROGRAM_DIR      = fmt.Sprintf("/usr/share/%s", filepath.Base(PROGRAM))
-	COLORSCRIPTS_DIR = fmt.Sprintf("/usr/share/%s/colorscripts", filepath.Base(PROGRAM))
+	PROGRAM_DIR      string
+	COLORSCRIPTS_DIR = fmt.Sprintf("%s/colorscripts", PROGRAM_DIR)
 	GENERATIONS      = [][]int{{1, 151}, {152, 251}, {252, 386}, {387, 493}, {494, 649}, {650, 721}, {722, 809}, {810, 898}}
 )
 
