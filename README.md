@@ -63,35 +63,35 @@ Application Options:
 
 Example of printing out a specific pokemon
 ```
-pokemon-colorscripts -n charizard
+pokemon-colorscripts-go -n charizard
 ```
 Example of printing out a specific shiny pokemon
 ```
-pokemon-colorscripts -n spheal -s
+pokemon-colorscripts-go -n spheal -s
 ```
 Example of printing out a random pokemon
 ```
-pokemon-colorscripts
+pokemon-colorscripts-go
 ```
 Example of printing out a random pokemon from generation 1
 ```
-pokemon-colorscripts -r 1
+pokemon-colorscripts-go -r 1
 ```
 Example of printing out a random pokemon from generations 1-3
 ```
-pokemon-colorscripts -r 1-3
+pokemon-colorscripts-go -r 1-3
 ```
 Example of printing out a random pokemon from generations 1,3 and 6
 ```
-pokemon-colorscripts -r 1,3,6
+pokemon-colorscripts-go -r 1,3,6
 ```
 Example of printing out a larger sprite
 ```
-pokemon-colorscripts -n sphleal -l
+pokemon-colorscripts-go -n sphleal -l
 ```
 Example of printing out an alternate form
 ```
-pokemon-colorscripts -n deoxys --form defense
+pokemon-colorscripts-go -n deoxys --form defense
 ```
 Some pokemon with spaces or periods or other special characters in their name
 might not be spelled as expected, some examples include:
