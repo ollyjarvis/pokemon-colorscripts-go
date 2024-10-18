@@ -31,6 +31,9 @@ which most modern terminals have. More on terminals and color support can be fou
 `makepkg -si`
 
 ### From source
+#### Requirements
+- Have Go installed and in PATH
+
 #### Install
 - Clone the repo
 `chmod +x install.sh`
