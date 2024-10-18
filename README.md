@@ -26,11 +26,19 @@ which most modern terminals have. More on terminals and color support can be fou
 
 ## Installation
 
-not done lols
+### Arch Linux
+- Clone the repo
+`makepkg -si`
 
 ## Usage
 You can run the program from the command line to randomly display a pokemon
 or by specifying the pokemon name with `-n [POKEMON_NAME]`.
+
+Slightly different than the original pokemon-colorscripts.
+- `-r` flag is no longer needed unless specifiying generations to pick from.
+- `-a` all flag instead of `-l` list
+- `-l` large flag instead of `-b` big
+
 ```
 Usage:
   pokemon-colorscripts-go [OPTIONS]
